@@ -1,0 +1,15 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+find_dependency(Threads)
+find_dependency(Boost)
+find_dependency(spdlog)
+
+if(@ENABLE_HTTP_ADAPTER@)
+    find_dependency(CURL)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/event_adapter-targets.cmake")
+
+check_required_components(event_adapter)

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/trading_system_example.dir/trading_system_example.cpp.o -o trading_system_example  ../_deps/spdlog-build/libspdlog.a /usr/lib64/libcurl.so

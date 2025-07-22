@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/logging_config_example.dir/logging_config_example.cpp.o -o logging_config_example  ../_deps/spdlog-build/libspdlog.a /usr/lib64/libcurl.so
