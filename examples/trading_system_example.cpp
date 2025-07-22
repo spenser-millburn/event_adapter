@@ -1,4 +1,4 @@
-j#include <event_adapter/event.hpp>
+#include <event_adapter/event.hpp>
 #include <event_adapter/event_dispatcher.hpp>
 #include <event_adapter/event_filter.hpp>
 #include <event_adapter/adapters/websocket_adapter.hpp>

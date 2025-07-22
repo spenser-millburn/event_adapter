@@ -4,10 +4,15 @@
 add_executable(trading_system_example trading_system_example.cpp)
 target_link_libraries(trading_system_example PRIVATE event_adapter)
 
+# Trading system proper example (using event adapter correctly)
+add_executable(trading_system_proper trading_system_proper.cpp)
+target_link_libraries(trading_system_proper PRIVATE event_adapter)
+
 # Check for nlohmann/json
 find_package(nlohmann_json QUIET)
 if(nlohmann_json_FOUND)
     target_link_libraries(trading_system_example PRIVATE nlohmann_json::nlohmann_json)
+    target_link_libraries(trading_system_proper PRIVATE nlohmann_json::nlohmann_json)
 else()
     message(WARNING "nlohmann/json not found, trading example may not compile")
 endif()

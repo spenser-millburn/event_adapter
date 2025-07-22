@@ -186,6 +186,20 @@ trading_system_example/fast:
 .PHONY : trading_system_example/fast
 
 # Convenience name for target.
+examples/CMakeFiles/trading_system_proper.dir/rule:
+	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/trading_system_proper.dir/rule
+.PHONY : examples/CMakeFiles/trading_system_proper.dir/rule
+
+# Convenience name for target.
+trading_system_proper: examples/CMakeFiles/trading_system_proper.dir/rule
+.PHONY : trading_system_proper
+
+# fast build rule for target.
+trading_system_proper/fast:
+	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/build
+.PHONY : trading_system_proper/fast
+
+# Convenience name for target.
 examples/CMakeFiles/simple_example.dir/rule:
 	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/simple_example.dir/rule
 .PHONY : examples/CMakeFiles/simple_example.dir/rule
@@ -361,6 +375,30 @@ trading_system_example.cpp.s:
 	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/trading_system_example.cpp.s
 .PHONY : trading_system_example.cpp.s
 
+trading_system_proper.o: trading_system_proper.cpp.o
+.PHONY : trading_system_proper.o
+
+# target to build an object file
+trading_system_proper.cpp.o:
+	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/trading_system_proper.cpp.o
+.PHONY : trading_system_proper.cpp.o
+
+trading_system_proper.i: trading_system_proper.cpp.i
+.PHONY : trading_system_proper.i
+
+# target to preprocess a source file
+trading_system_proper.cpp.i:
+	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/trading_system_proper.cpp.i
+.PHONY : trading_system_proper.cpp.i
+
+trading_system_proper.s: trading_system_proper.cpp.s
+.PHONY : trading_system_proper.s
+
+# target to generate assembly for a file
+trading_system_proper.cpp.s:
+	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/trading_system_proper.cpp.s
+.PHONY : trading_system_proper.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -379,6 +417,7 @@ help:
 	@echo "... logging_config_example"
 	@echo "... simple_example"
 	@echo "... trading_system_example"
+	@echo "... trading_system_proper"
 	@echo "... keyboard_example.o"
 	@echo "... keyboard_example.i"
 	@echo "... keyboard_example.s"
@@ -394,6 +433,9 @@ help:
 	@echo "... trading_system_example.o"
 	@echo "... trading_system_example.i"
 	@echo "... trading_system_example.s"
+	@echo "... trading_system_proper.o"
+	@echo "... trading_system_proper.i"
+	@echo "... trading_system_proper.s"
 .PHONY : help
 
 

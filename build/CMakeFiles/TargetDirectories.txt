@@ -49,6 +49,7 @@
 /home/spensermillburn/sliink/repo/event_adapter/build/_deps/spdlog-build/CMakeFiles/install/local.dir
 /home/spensermillburn/sliink/repo/event_adapter/build/_deps/spdlog-build/CMakeFiles/install/strip.dir
 /home/spensermillburn/sliink/repo/event_adapter/build/examples/CMakeFiles/trading_system_example.dir
+/home/spensermillburn/sliink/repo/event_adapter/build/examples/CMakeFiles/trading_system_proper.dir
 /home/spensermillburn/sliink/repo/event_adapter/build/examples/CMakeFiles/simple_example.dir
 /home/spensermillburn/sliink/repo/event_adapter/build/examples/CMakeFiles/keyboard_example.dir
 /home/spensermillburn/sliink/repo/event_adapter/build/examples/CMakeFiles/keyboard_simple.dir

@@ -562,6 +562,19 @@ trading_system_example/fast:
 .PHONY : trading_system_example/fast
 
 #=============================================================================
+# Target rules for targets named trading_system_proper
+
+# Build rule for target.
+trading_system_proper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trading_system_proper
+.PHONY : trading_system_proper
+
+# fast build rule for target.
+trading_system_proper/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/build
+.PHONY : trading_system_proper/fast
+
+#=============================================================================
 # Target rules for targets named simple_example
 
 # Build rule for target.
@@ -660,6 +673,7 @@ help:
 	@echo "... simple_example"
 	@echo "... spdlog"
 	@echo "... trading_system_example"
+	@echo "... trading_system_proper"
 .PHONY : help
 
 

@@ -10,8 +10,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.8/CMakeSystem.cmake"
   "CMakeLists.txt"
   "sml-populate-prefix/tmp/sml-populate-mkdirs.cmake"
+  "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+  "/usr/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake/Modules/ExternalProject.cmake"
@@ -36,6 +38,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3.30.8/CMakeSystem.cmake"
   "sml-populate-prefix/tmp/sml-populate-mkdirs.cmake"
   "sml-populate-prefix/tmp/sml-populate-gitclone.cmake"
   "sml-populate-prefix/src/sml-populate-stamp/sml-populate-gitinfo.txt"

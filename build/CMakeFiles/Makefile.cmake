@@ -185,6 +185,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/sml-build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "_deps/spdlog-build/CMakeFiles/spdlog.dir/DependInfo.cmake"
   "examples/CMakeFiles/trading_system_example.dir/DependInfo.cmake"
+  "examples/CMakeFiles/trading_system_proper.dir/DependInfo.cmake"
   "examples/CMakeFiles/simple_example.dir/DependInfo.cmake"
   "examples/CMakeFiles/keyboard_example.dir/DependInfo.cmake"
   "examples/CMakeFiles/keyboard_simple.dir/DependInfo.cmake"
