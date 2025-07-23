@@ -549,19 +549,6 @@ spdlog/fast:
 .PHONY : spdlog/fast
 
 #=============================================================================
-# Target rules for targets named trading_system_example
-
-# Build rule for target.
-trading_system_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trading_system_example
-.PHONY : trading_system_example
-
-# fast build rule for target.
-trading_system_example/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/build
-.PHONY : trading_system_example/fast
-
-#=============================================================================
 # Target rules for targets named trading_system_proper
 
 # Build rule for target.
@@ -586,45 +573,6 @@ simple_example: cmake_check_build_system
 simple_example/fast:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/simple_example.dir/build.make examples/CMakeFiles/simple_example.dir/build
 .PHONY : simple_example/fast
-
-#=============================================================================
-# Target rules for targets named keyboard_example
-
-# Build rule for target.
-keyboard_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard_example
-.PHONY : keyboard_example
-
-# fast build rule for target.
-keyboard_example/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/build
-.PHONY : keyboard_example/fast
-
-#=============================================================================
-# Target rules for targets named keyboard_simple
-
-# Build rule for target.
-keyboard_simple: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard_simple
-.PHONY : keyboard_simple
-
-# fast build rule for target.
-keyboard_simple/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/build
-.PHONY : keyboard_simple/fast
-
-#=============================================================================
-# Target rules for targets named logging_config_example
-
-# Build rule for target.
-logging_config_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logging_config_example
-.PHONY : logging_config_example
-
-# fast build rule for target.
-logging_config_example/fast:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/build
-.PHONY : logging_config_example/fast
 
 # Help Target
 help:
@@ -667,12 +615,8 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
-	@echo "... keyboard_example"
-	@echo "... keyboard_simple"
-	@echo "... logging_config_example"
 	@echo "... simple_example"
 	@echo "... spdlog"
-	@echo "... trading_system_example"
 	@echo "... trading_system_proper"
 .PHONY : help
 

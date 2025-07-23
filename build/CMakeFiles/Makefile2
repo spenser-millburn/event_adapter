@@ -144,12 +144,8 @@ _deps/spdlog-build/clean: _deps/spdlog-build/CMakeFiles/spdlog.dir/clean
 # Directory level rules for directory examples
 
 # Recursive "all" directory target.
-examples/all: examples/CMakeFiles/trading_system_example.dir/all
 examples/all: examples/CMakeFiles/trading_system_proper.dir/all
 examples/all: examples/CMakeFiles/simple_example.dir/all
-examples/all: examples/CMakeFiles/keyboard_example.dir/all
-examples/all: examples/CMakeFiles/keyboard_simple.dir/all
-examples/all: examples/CMakeFiles/logging_config_example.dir/all
 .PHONY : examples/all
 
 # Recursive "preinstall" directory target.
@@ -157,12 +153,8 @@ examples/preinstall:
 .PHONY : examples/preinstall
 
 # Recursive "clean" directory target.
-examples/clean: examples/CMakeFiles/trading_system_example.dir/clean
 examples/clean: examples/CMakeFiles/trading_system_proper.dir/clean
 examples/clean: examples/CMakeFiles/simple_example.dir/clean
-examples/clean: examples/CMakeFiles/keyboard_example.dir/clean
-examples/clean: examples/CMakeFiles/keyboard_simple.dir/clean
-examples/clean: examples/CMakeFiles/logging_config_example.dir/clean
 .PHONY : examples/clean
 
 #=============================================================================
@@ -915,7 +907,7 @@ _deps/sml-build/CMakeFiles/ContinuousSubmit.dir/clean:
 _deps/spdlog-build/CMakeFiles/spdlog.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10 "Built target spdlog"
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -935,39 +927,13 @@ _deps/spdlog-build/CMakeFiles/spdlog.dir/clean:
 .PHONY : _deps/spdlog-build/CMakeFiles/spdlog.dir/clean
 
 #=============================================================================
-# Target rules for target examples/CMakeFiles/trading_system_example.dir
-
-# All Build rule for target.
-examples/CMakeFiles/trading_system_example.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=17,18 "Built target trading_system_example"
-.PHONY : examples/CMakeFiles/trading_system_example.dir/all
-
-# Build rule for subdir invocation for target.
-examples/CMakeFiles/trading_system_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/trading_system_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 0
-.PHONY : examples/CMakeFiles/trading_system_example.dir/rule
-
-# Convenience name for target.
-trading_system_example: examples/CMakeFiles/trading_system_example.dir/rule
-.PHONY : trading_system_example
-
-# clean rule for target.
-examples/CMakeFiles/trading_system_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/clean
-.PHONY : examples/CMakeFiles/trading_system_example.dir/clean
-
-#=============================================================================
 # Target rules for target examples/CMakeFiles/trading_system_proper.dir
 
 # All Build rule for target.
 examples/CMakeFiles/trading_system_proper.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_proper.dir/build.make examples/CMakeFiles/trading_system_proper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=19,20 "Built target trading_system_proper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=11,12 "Built target trading_system_proper"
 .PHONY : examples/CMakeFiles/trading_system_proper.dir/all
 
 # Build rule for subdir invocation for target.
@@ -993,7 +959,7 @@ examples/CMakeFiles/trading_system_proper.dir/clean:
 examples/CMakeFiles/simple_example.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/simple_example.dir/build.make examples/CMakeFiles/simple_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/simple_example.dir/build.make examples/CMakeFiles/simple_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=7,8 "Built target simple_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=1,2 "Built target simple_example"
 .PHONY : examples/CMakeFiles/simple_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1011,84 +977,6 @@ simple_example: examples/CMakeFiles/simple_example.dir/rule
 examples/CMakeFiles/simple_example.dir/clean:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/simple_example.dir/build.make examples/CMakeFiles/simple_example.dir/clean
 .PHONY : examples/CMakeFiles/simple_example.dir/clean
-
-#=============================================================================
-# Target rules for target examples/CMakeFiles/keyboard_example.dir
-
-# All Build rule for target.
-examples/CMakeFiles/keyboard_example.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=1,2 "Built target keyboard_example"
-.PHONY : examples/CMakeFiles/keyboard_example.dir/all
-
-# Build rule for subdir invocation for target.
-examples/CMakeFiles/keyboard_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/keyboard_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 0
-.PHONY : examples/CMakeFiles/keyboard_example.dir/rule
-
-# Convenience name for target.
-keyboard_example: examples/CMakeFiles/keyboard_example.dir/rule
-.PHONY : keyboard_example
-
-# clean rule for target.
-examples/CMakeFiles/keyboard_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/clean
-.PHONY : examples/CMakeFiles/keyboard_example.dir/clean
-
-#=============================================================================
-# Target rules for target examples/CMakeFiles/keyboard_simple.dir
-
-# All Build rule for target.
-examples/CMakeFiles/keyboard_simple.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/depend
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=3,4 "Built target keyboard_simple"
-.PHONY : examples/CMakeFiles/keyboard_simple.dir/all
-
-# Build rule for subdir invocation for target.
-examples/CMakeFiles/keyboard_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/keyboard_simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 0
-.PHONY : examples/CMakeFiles/keyboard_simple.dir/rule
-
-# Convenience name for target.
-keyboard_simple: examples/CMakeFiles/keyboard_simple.dir/rule
-.PHONY : keyboard_simple
-
-# clean rule for target.
-examples/CMakeFiles/keyboard_simple.dir/clean:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/clean
-.PHONY : examples/CMakeFiles/keyboard_simple.dir/clean
-
-#=============================================================================
-# Target rules for target examples/CMakeFiles/logging_config_example.dir
-
-# All Build rule for target.
-examples/CMakeFiles/logging_config_example.dir/all: _deps/spdlog-build/CMakeFiles/spdlog.dir/all
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles --progress-num=5,6 "Built target logging_config_example"
-.PHONY : examples/CMakeFiles/logging_config_example.dir/all
-
-# Build rule for subdir invocation for target.
-examples/CMakeFiles/logging_config_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/logging_config_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/spensermillburn/sliink/repo/event_adapter/build/CMakeFiles 0
-.PHONY : examples/CMakeFiles/logging_config_example.dir/rule
-
-# Convenience name for target.
-logging_config_example: examples/CMakeFiles/logging_config_example.dir/rule
-.PHONY : logging_config_example
-
-# clean rule for target.
-examples/CMakeFiles/logging_config_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/clean
-.PHONY : examples/CMakeFiles/logging_config_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

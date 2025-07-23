@@ -172,20 +172,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-examples/CMakeFiles/trading_system_example.dir/rule:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/trading_system_example.dir/rule
-.PHONY : examples/CMakeFiles/trading_system_example.dir/rule
-
-# Convenience name for target.
-trading_system_example: examples/CMakeFiles/trading_system_example.dir/rule
-.PHONY : trading_system_example
-
-# fast build rule for target.
-trading_system_example/fast:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/build
-.PHONY : trading_system_example/fast
-
-# Convenience name for target.
 examples/CMakeFiles/trading_system_proper.dir/rule:
 	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/trading_system_proper.dir/rule
 .PHONY : examples/CMakeFiles/trading_system_proper.dir/rule
@@ -213,120 +199,6 @@ simple_example/fast:
 	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/simple_example.dir/build.make examples/CMakeFiles/simple_example.dir/build
 .PHONY : simple_example/fast
 
-# Convenience name for target.
-examples/CMakeFiles/keyboard_example.dir/rule:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/keyboard_example.dir/rule
-.PHONY : examples/CMakeFiles/keyboard_example.dir/rule
-
-# Convenience name for target.
-keyboard_example: examples/CMakeFiles/keyboard_example.dir/rule
-.PHONY : keyboard_example
-
-# fast build rule for target.
-keyboard_example/fast:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/build
-.PHONY : keyboard_example/fast
-
-# Convenience name for target.
-examples/CMakeFiles/keyboard_simple.dir/rule:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/keyboard_simple.dir/rule
-.PHONY : examples/CMakeFiles/keyboard_simple.dir/rule
-
-# Convenience name for target.
-keyboard_simple: examples/CMakeFiles/keyboard_simple.dir/rule
-.PHONY : keyboard_simple
-
-# fast build rule for target.
-keyboard_simple/fast:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/build
-.PHONY : keyboard_simple/fast
-
-# Convenience name for target.
-examples/CMakeFiles/logging_config_example.dir/rule:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/logging_config_example.dir/rule
-.PHONY : examples/CMakeFiles/logging_config_example.dir/rule
-
-# Convenience name for target.
-logging_config_example: examples/CMakeFiles/logging_config_example.dir/rule
-.PHONY : logging_config_example
-
-# fast build rule for target.
-logging_config_example/fast:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/build
-.PHONY : logging_config_example/fast
-
-keyboard_example.o: keyboard_example.cpp.o
-.PHONY : keyboard_example.o
-
-# target to build an object file
-keyboard_example.cpp.o:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/keyboard_example.cpp.o
-.PHONY : keyboard_example.cpp.o
-
-keyboard_example.i: keyboard_example.cpp.i
-.PHONY : keyboard_example.i
-
-# target to preprocess a source file
-keyboard_example.cpp.i:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/keyboard_example.cpp.i
-.PHONY : keyboard_example.cpp.i
-
-keyboard_example.s: keyboard_example.cpp.s
-.PHONY : keyboard_example.s
-
-# target to generate assembly for a file
-keyboard_example.cpp.s:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_example.dir/build.make examples/CMakeFiles/keyboard_example.dir/keyboard_example.cpp.s
-.PHONY : keyboard_example.cpp.s
-
-keyboard_simple.o: keyboard_simple.cpp.o
-.PHONY : keyboard_simple.o
-
-# target to build an object file
-keyboard_simple.cpp.o:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/keyboard_simple.cpp.o
-.PHONY : keyboard_simple.cpp.o
-
-keyboard_simple.i: keyboard_simple.cpp.i
-.PHONY : keyboard_simple.i
-
-# target to preprocess a source file
-keyboard_simple.cpp.i:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/keyboard_simple.cpp.i
-.PHONY : keyboard_simple.cpp.i
-
-keyboard_simple.s: keyboard_simple.cpp.s
-.PHONY : keyboard_simple.s
-
-# target to generate assembly for a file
-keyboard_simple.cpp.s:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/keyboard_simple.dir/build.make examples/CMakeFiles/keyboard_simple.dir/keyboard_simple.cpp.s
-.PHONY : keyboard_simple.cpp.s
-
-logging_config_example.o: logging_config_example.cpp.o
-.PHONY : logging_config_example.o
-
-# target to build an object file
-logging_config_example.cpp.o:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/logging_config_example.cpp.o
-.PHONY : logging_config_example.cpp.o
-
-logging_config_example.i: logging_config_example.cpp.i
-.PHONY : logging_config_example.i
-
-# target to preprocess a source file
-logging_config_example.cpp.i:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/logging_config_example.cpp.i
-.PHONY : logging_config_example.cpp.i
-
-logging_config_example.s: logging_config_example.cpp.s
-.PHONY : logging_config_example.s
-
-# target to generate assembly for a file
-logging_config_example.cpp.s:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/logging_config_example.dir/build.make examples/CMakeFiles/logging_config_example.dir/logging_config_example.cpp.s
-.PHONY : logging_config_example.cpp.s
-
 simple_example.o: simple_example.cpp.o
 .PHONY : simple_example.o
 
@@ -350,30 +222,6 @@ simple_example.s: simple_example.cpp.s
 simple_example.cpp.s:
 	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/simple_example.dir/build.make examples/CMakeFiles/simple_example.dir/simple_example.cpp.s
 .PHONY : simple_example.cpp.s
-
-trading_system_example.o: trading_system_example.cpp.o
-.PHONY : trading_system_example.o
-
-# target to build an object file
-trading_system_example.cpp.o:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/trading_system_example.cpp.o
-.PHONY : trading_system_example.cpp.o
-
-trading_system_example.i: trading_system_example.cpp.i
-.PHONY : trading_system_example.i
-
-# target to preprocess a source file
-trading_system_example.cpp.i:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/trading_system_example.cpp.i
-.PHONY : trading_system_example.cpp.i
-
-trading_system_example.s: trading_system_example.cpp.s
-.PHONY : trading_system_example.s
-
-# target to generate assembly for a file
-trading_system_example.cpp.s:
-	cd /home/spensermillburn/sliink/repo/event_adapter/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/trading_system_example.dir/build.make examples/CMakeFiles/trading_system_example.dir/trading_system_example.cpp.s
-.PHONY : trading_system_example.cpp.s
 
 trading_system_proper.o: trading_system_proper.cpp.o
 .PHONY : trading_system_proper.o
@@ -412,27 +260,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... keyboard_example"
-	@echo "... keyboard_simple"
-	@echo "... logging_config_example"
 	@echo "... simple_example"
-	@echo "... trading_system_example"
 	@echo "... trading_system_proper"
-	@echo "... keyboard_example.o"
-	@echo "... keyboard_example.i"
-	@echo "... keyboard_example.s"
-	@echo "... keyboard_simple.o"
-	@echo "... keyboard_simple.i"
-	@echo "... keyboard_simple.s"
-	@echo "... logging_config_example.o"
-	@echo "... logging_config_example.i"
-	@echo "... logging_config_example.s"
 	@echo "... simple_example.o"
 	@echo "... simple_example.i"
 	@echo "... simple_example.s"
-	@echo "... trading_system_example.o"
-	@echo "... trading_system_example.i"
-	@echo "... trading_system_example.s"
 	@echo "... trading_system_proper.o"
 	@echo "... trading_system_proper.i"
 	@echo "... trading_system_proper.s"

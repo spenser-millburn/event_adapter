@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/keyboard_simple.dir/keyboard_simple.cpp.o -o keyboard_simple  ../_deps/spdlog-build/libspdlog.a /usr/lib64/libcurl.so
